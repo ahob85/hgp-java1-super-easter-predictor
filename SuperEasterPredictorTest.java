@@ -15,12 +15,12 @@ import java.io.*;
  * @author  (your name)
  * @version (a version number or a date)
  */
-public class TestSuperEasterPredictor
+public class SuperEasterPredictorTest
 {
     /**
-     * Default constructor for test class TestEasterPredictor
+     * Default constructor for test class SuperEasterPredictorTest
      */
-    public TestSuperEasterPredictor()
+    public SuperEasterPredictorTest()
     {
     }
 
@@ -45,7 +45,7 @@ public class TestSuperEasterPredictor
     }
 
     @Test
-    public void testSuperEasterPredictor1() 
+    public void superEasterPredictorTest1() 
     {
         PrintStream originalOut = System.out;
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
@@ -67,7 +67,7 @@ public class TestSuperEasterPredictor
     }
     
     @Test
-    public void testSuperEasterPredictor2() 
+    public void superEasterPredictorTest2() 
     {
         PrintStream originalOut = System.out;
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
@@ -89,7 +89,7 @@ public class TestSuperEasterPredictor
     }
     
     @Test
-    public void testSuperEasterPredictor3() 
+    public void superEasterPredictorTest3() 
     {
         PrintStream originalOut = System.out;
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
